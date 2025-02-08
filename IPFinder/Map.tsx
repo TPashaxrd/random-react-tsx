@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import ReactMapGL, { Marker } from 'react-map-gl'; 
 import { RiUserLocationFill } from 'react-icons/ri'; 
 
+// Go to the website: https://www.mapbox.com/ and create a free account.
+
 const API_KEY = '<YOUR_API_KEY>'; 
 
 const Map = ({ lat, lon }) => { 
